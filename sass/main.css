@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+:root {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.wrapper {
+  max-width: 45rem;
+  margin: 12rem auto;
+  background: #7d89ac;
+  border-radius: 2rem;
+  padding: 2.5rem;
+}
+.wrapper header {
+  font-size: 3rem;
+  font-weight: 550;
+  color: #fdfefe;
+  letter-spacing: 0.1rem;
+}
+.wrapper .inputField {
+  display: flex;
+  height: 4.5rem;
+  width: 100%;
+  margin: 2rem 0;
+}
+.wrapper .inputField .inputText {
+  width: 85%;
+  height: 100%;
+  outline: none;
+  border: 0.1rem solid #ccc;
+  font-size: 1.7rem;
+  border-radius: 0.5rem;
+  padding-left: 1.5;
+}
+.wrapper .inputField .btn-add {
+  width: 6rem;
+  height: 100%;
+  border: none;
+  outline: none;
+  background: #c1db1b;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 0.3rem;
+  margin-left: 0.5rem;
+  font-size: 2.2rem;
+  font-weight: 300;
+}
+.wrapper h4 {
+  margin-bottom: 1rem;
+  color: rgba(255, 255, 255, 0.5);
+  letter-spacing: 0.1rem;
+}
+.wrapper .todoList {
+  max-height: 40rem;
+  overflow-y: auto;
+}
+.wrapper .todoList li {
+  position: relative;
+  list-style: none;
+  width: 34rem;
+  height: 6rem;
+  background: #031956;
+  color: #a8b2c4;
+  padding: 0 1.5rem;
+  line-height: 6rem;
+  border-radius: 2rem;
+  margin-bottom: 0.8rem;
+  font-size: 1.5re;
+  letter-spacing: 0.05rem;
+  cursor: default;
+  overflow: hidden;
+}
+.wrapper .todoList li i {
+  position: absolute;
+  right: -3rem;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3 ease;
+}
+.wrapper .todoList li:hover i {
+  right: 0;
+}
+.wrapper .listPage {
+  padding: 1rem;
+  text-align: center;
+}
+.wrapper .listPage li {
+  background-color: #fff;
+  display: inline-block;
+  padding: 2rem;
+}
+.wrapper .footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 2.5rem;
+}
+.wrapper .footer .btn-clear {
+  border: none;
+  outline: none;
+  background: #ea05fe;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 0.3rem;
+  padding: 0.6rem 1.5rem;
+}
+
+/*# sourceMappingURL=main.css.map */
